@@ -1,0 +1,64 @@
+.post-container {
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid #1a282c;
+  width: 800px;
+}
+
+.post-container:hover {
+  background-color: #20252784;
+  border-radius: 10px;
+}
+.post-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.post-text {
+  color: #b8c5c9;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-subreddit {
+  font-size: 12px;
+  color: #b8c5c9;
+}
+
+.time-ago {
+  color: #b8c5c9;
+  font-size: 11px;
+}
+
+.post-icon-time-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.post-button-container {
+  display: flex;
+  gap: 30px;
+}
+
+.join-container {
+  display: flex;
+  gap: 15px;
+}
+
+.join-button {
+  background-color: #0045ac;
+  border: none;
+  border-radius: 16px;
+  padding: 4px 16px;
+  color: white;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+}

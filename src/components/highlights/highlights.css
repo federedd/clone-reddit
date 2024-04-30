@@ -1,0 +1,22 @@
+.highlights-title {
+  color: #82959b;
+  font-weight: 200;
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 24px;
+}
+
+.highlights-container {
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 330px;
+  margin-left: auto;
+  justify-content: start;
+  position: sticky;
+  top: 0;
+  max-height: fit-content;
+}

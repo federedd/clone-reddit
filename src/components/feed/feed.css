@@ -1,0 +1,8 @@
+.feed {
+  background-color: rgba(12, 20, 22, 1);
+  flex: 1;
+  max-width: calc(100vw - 240px);
+  overflow-y: scroll;
+  position: relative;
+  padding-right: 30px;
+}

@@ -1,0 +1,6 @@
+.carousel-container {
+  display: flex;
+  gap: 18px;
+  margin: 14px 0;
+  overflow-x: scroll;
+}

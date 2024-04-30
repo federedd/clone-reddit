@@ -1,0 +1,43 @@
+.header-img {
+  width: 130px;
+}
+
+.magnifying-glass {
+  width: 20px;
+  position: absolute;
+  margin-top: 8px;
+}
+
+header {
+  background-color: rgba(12, 20, 22, 1);
+  min-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+  margin: 8px;
+  border-bottom: 1px solid #1a282c;
+}
+
+.ellipsis {
+  width: 20px;
+}
+
+input {
+  background-color: #1a282c;
+  border: none;
+  text-align: start;
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search-bar-container {
+  display: flex;
+}
+
+.buttons-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+.subreddit-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.subreddit-text {
+  font-size: 14px;
+}
+
+.subreddit-members {
+  color: #82959b;
+  font-size: 12px;
+}
+
+.subreddit-text-icon-container {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px 25px 10px;
+}

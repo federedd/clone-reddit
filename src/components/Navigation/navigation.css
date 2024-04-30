@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  left: 0;
+  padding: 20px;
+  overflow: scroll;
+}
+
+h1 {
+  font-weight: 200;
+  color: white;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  font-size: 16px;
+  padding: 4px 16px;
+  height: 35px;
+  width: 200px;
+  cursor: pointer;
+}
+
+h1:hover {
+  background-color: #20252784;
+  border-radius: 10px;
+}
+
+.divider {
+  margin: 12px 0px;
+  width: 200px;
+  border-bottom: 1px solid #1a282c;
+}
